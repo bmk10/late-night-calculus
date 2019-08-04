@@ -17,7 +17,6 @@ LatexWriter::~LatexWriter()
 {
     m_latexFile.close();
     QProcess process;
-
     process.start("pdflatex", QStringList() <<"-interaction=batchmode" << "-output-directory=../Calculus/src/latex/" << m_latexFile.fileName());
     process.waitForFinished();
     m_latexFile.remove();

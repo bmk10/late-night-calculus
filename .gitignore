@@ -1,2 +1,3 @@
-*.usr
-*.usr.pro
+*.pro
+*.pro.usr
+*.autosave
