@@ -1,4 +1,6 @@
+#include <iostream>
 #include "latexwriter.h"
+#include "src/arithmetic/exponent.h"
 
 LatexWriter::LatexWriter()
 {

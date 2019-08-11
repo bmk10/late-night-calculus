@@ -1,4 +1,5 @@
 #include "gui/mainwindow.h"
+#include "src/arithmetic/exponent.h"
 #include <QApplication>
 #include <QtDebug>
 

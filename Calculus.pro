@@ -25,12 +25,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        src/arithmetic/exponent.cpp \
         src/latex/latexwriter.cpp \
         src/main.cpp \
         src/gui/mainwindow.cpp \
         src/parser/expressionparser.cpp
 
 HEADERS += \
+        src/arithmetic/exponent.h \
         src/gui/mainwindow.h \
         src/latex/latexwriter.h \
         src/parser/expressionparser.h
